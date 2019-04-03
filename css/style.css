@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 100;
   line-height: 26px;
@@ -479,7 +479,6 @@ a.btn.send-btn:hover{
 	border: 1px solid #c59a6d;
 	color: #ffffff;
 }*/
-
 .dispo-portfolio {
   padding: 10px;
 }
@@ -496,12 +495,19 @@ a.btn.send-btn:hover{
   flex-direction: column;
   padding: 5px;
 }
-.description h4{
+
+.description h4 {
   margin-bottom: auto;
 }
+
+.img-portfolio {
+  width: 310px;
+}
+
 .portfolio-disp img, .portfolio-disp p {
   padding: 5px;
   text-align: justify;
+  margin: 10px 0 30px 0;
 }
 
 .description ul {
@@ -574,7 +580,7 @@ ul.clients li {
 }
 
 .team img {
-  width: 30px;
+  width: 35px;
   margin: 0 auto;
   border-radius: 0;
 }
@@ -619,8 +625,9 @@ ul.clients li {
   width: 45px;
   margin-right: 10px;
 }
-ul.social{
-  text-align: center;
+
+ul.social {
+  text-align: right;
 }
 
 ul.social li {
@@ -739,7 +746,7 @@ nav#footer {
   margin-left: 10px;
 }
 
-.mail{
+.mail {
   color: white;
 }
 
@@ -785,9 +792,13 @@ nav#footer {
 }
 
 .modal-header {
-  padding: 20px 40px;
+  padding: 10px 40px;
   background: #282f35;
   color: #ffffff;
+}
+
+.modal-header h1 {
+  margin-top: 10px;
 }
 
 .modal-body {
@@ -828,17 +839,51 @@ button {
 .modal-trigger:hover {
   padding: 20px 40px;
 }
-.img-modal{
+
+.img-modal {
   text-align: center;
   margin-bottom: 40px;
 }
-.img-box{
+
+.img-box {
   border: 1px #c59a6d solid;
 }
 
-.text-modal p, .text-modal ul, .text-modal h4{
+.description-modal h4 {
+  padding: 15px 0;
+}
+
+.description-modal ul {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-bottom: 45px;
+}
+}
+
+.text-modal p, .text-modal ul, .text-modal h4 {
   margin-bottom: 15px;
 }
+
+.lien-button button {
+  border: 2px solid;
+  margin-right: 40px ;
+  padding: 0;
+}
+
+.lien-button button a {
+  color: #c59a6d;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+}
+
+.lien-button button a:hover {
+  color: white;
+  background-color: #c59a6d;
+}
+
+
 /* Animation MODAL BOX*/
 @-webkit-keyframes modalbox {
   0% {
