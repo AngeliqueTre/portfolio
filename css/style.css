@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h3 {
@@ -55,6 +55,7 @@ h6 {
 
 p {
   font-weight: 400;
+  font-size: 16px;
 }
 
 hr {
@@ -70,6 +71,11 @@ a:hover,
 a:focus {
   color: #c59a6d;
   text-decoration: none;
+}
+
+.col-md-6 {
+  width: 47%;
+  margin-left: 15px;
 }
 
 /*MENU*/
@@ -101,7 +107,7 @@ a:focus {
 }
 
 .content h4 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -437,6 +443,11 @@ a.btn.go-to-btn:hover {
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }*/
+.shadow{
+  border: 1px solid #c3c3c3;
+  padding-bottom: 20px;
+}
+
 .hline {
   height: 5px;
   width: 30px;
@@ -479,21 +490,25 @@ a.btn.send-btn:hover{
 	border: 1px solid #c59a6d;
 	color: #ffffff;
 }*/
-.dispo-portfolio {
-  padding: 10px;
+.line2, .line{
+  display: flex;
+}
+
+.line2{
+  margin-top: 50px;
 }
 
 .lead {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .portfolio-disp {
   display: flex;
+  flex-direction: column;
 }
 
 .description {
   flex-direction: column;
-  padding: 5px;
 }
 
 .description h4 {
@@ -501,13 +516,17 @@ a.btn.send-btn:hover{
 }
 
 .img-portfolio {
-  width: 310px;
+  border: 1px solid #c59a6d;
 }
 
-.portfolio-disp img, .portfolio-disp p {
-  padding: 5px;
-  text-align: justify;
-  margin: 10px 0 30px 0;
+.portfolio-disp img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.btn-portfolio{
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .description ul {
@@ -545,7 +564,6 @@ ul, ol {
 
 ul.clients li {
   list-style: none;
-  padding: 20px 40px;
   vertical-align: middle;
   font-size: 16px;
   text-align: -webkit-center;
@@ -553,11 +571,12 @@ ul.clients li {
 
 .img-exp-pro {
   margin: 15px auto;
-  height: 80px;
+  width: 80%;
 }
 
 .line-diplome {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .team {
@@ -580,7 +599,7 @@ ul.clients li {
 }
 
 .team img {
-  width: 35px;
+  height: 45px;
   margin: 0 auto;
   border-radius: 0;
 }
@@ -811,7 +830,7 @@ nav#footer {
   cursor: pointer;
 }
 
-.modal-trigger, button {
+button {
   top: 50%;
   left: 50%;
   padding: 10px 30px;
@@ -821,23 +840,20 @@ nav#footer {
   text-decoration: none;
 }
 
-.modal-trigger {
-  margin: auto;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  transition: ease .2s;
-}
-
 button {
   border: 1px solid #c59a6d;
   outline: none;
   color: #c59a6d;
 }
+.btn-modal{
+  text-align: center;
+}
+
 
 .modal-trigger:hover {
-  padding: 20px 40px;
+  background-color: #c59a6d;
+  color: white;
+  font-weight: bold;
 }
 
 .img-modal {

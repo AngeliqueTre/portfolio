@@ -151,10 +151,13 @@
                 <img src="img/icone/js.svg" alt="Javascrpit" class="icone-lang"> JavaScript
               </li>
               <li>
-                <img src="img/icone/bootstrap.svg" alt="Bootstrap" class="icone-lang"> Bootstrap
+                <img src="img/icone/bootstrap.svg" alt="Bootstrap" class="icone-lang"> Bootstrap 4
               </li>
               <li>
                 <img src="img/icone/wordpress.svg" alt="Bootstrap" class="icone-lang"> Wordpress
+              </li>
+              <li>
+                <img src="img/icone/wordpress.svg" alt="Bootstrap" class="icone-lang"> Angular 7
               </li>
             </ul>
 
@@ -178,7 +181,7 @@
                 <img src="img/icone/nodejs.svg" alt="Javascrpit" class="icone-lang"> Node.JS
               </li>
               <li>
-                <!--<img src="img/icone/bootstrap.svg" alt="Bootstrap" class="icone-lang"> Bootstrap-->
+                <img src="img/icone/bootstrap.svg" alt="Bootstrap" class="icone-lang"> PHP
               </li>
             </ul>
           </div>
@@ -189,13 +192,16 @@
             <span>
               <img src="img/icone/design.svg" alt="Design" class="icone-compt">
             </span>
-            <h4>Design</h4>
+            <h4>PAO</h4>
             <ul>
               <li>
                 <img src="img/icone/photoshop.svg" alt="Photoshop" class="icone-lang"> Photoshop
               </li>
               <li>
                 <img src="img/icone/xd.svg" alt="XD" class="icone-lang"> Adobe XD
+              </li>
+              <li>
+                <img src="img/icone/excel.svg" alt="execel" class="icone-lang"> Pack office (outil bureautique)
               </li>
             </ul>
           </div>
@@ -205,22 +211,18 @@
             <span>
               <img src="img/icone/general.svg" alt="Général" class="icone-compt">
             </span>
-            <h4>Général</h4>
+            <h4>Gestion de projet</h4>
             <ul>
               <li>
-                <img src="img/icone/language.svg" alt="Langue" class="icone-lang"> Anglais niveau A1
+                <img src="img/icone/github.svg" alt="Github" class="icone-lang"> Git
+              <li>
+                <img src="img/icone/groupe.svg" alt="Travail en groupe" class="icone-lang"> Trello
               </li>
               <li>
-                <img src="img/icone/github.svg" alt="Github" class="icone-lang"> Gestion de projet
+                <img src="img/icone/administrative.svg" alt="Administration" class="icone-lang"> Méthodes agiles
               </li>
               <li>
-                <img src="img/icone/groupe.svg" alt="Travail en groupe" class="icone-lang"> Travail en groupe
-              </li>
-              <li>
-                <img src="img/icone/administrative.svg" alt="Administration" class="icone-lang"> Gestion administrative
-              </li>
-              <li>
-                <img src="img/icone/excel.svg" alt="execel" class="icone-lang"> Pack office (outil bureautique)
+                <img src="img/icone/language.svg" alt="Langue" class="icone-lang"> Anglais niveau A1 (CECRL) 
               </li>
             </ul>
           </div>
@@ -263,9 +265,11 @@
       </div>
       <div class="space"></div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
+
+    <div class="container">
+
+      <div class="row line">
+        <div class="col-md-6 col-sm-12 shadow">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text dispo-portfolio">
@@ -273,20 +277,21 @@
                 <p class="lead">The Planisphere</p>
                 <div class="hline"></div>
               </div>
-              <div class="portfolio-disp">
-                <img src="img/projet/landing.jpg" class="img-responsive img-portfolio" alt="...">
-                <div class="description">
-                  <h4>Description du projet</h4>
-                  <p>Premier projet effectué lors de ma formation : modification d'un template de landing page.</p>
-                  <a href="#" class="modal-trigger" data-modal="modal-name1">Plus d'information</a>
-                </div>
+                <div class="portfolio-disp">
+                  <img src="img/projet/landing.jpg" class="img-responsive img-portfolio mb-1" alt="...">
+                  <div class="description">
+                    <p>Premier projet effectué lors de ma formation qui consistait à modifier un template de landing page.</p>
+                  </div>
+                  <div class="btn-modal">
+                    <button class="modal-trigger" data-modal="modal-name1">Plus d'information</button>
+                  </div>
               </div>
             </div>
-          </div>
-          <hr>
+              <hr class="hidden">
+            </div>
         </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 shadow">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text dispo-portfolio">
@@ -297,19 +302,20 @@
               <div class="portfolio-disp">
                 <img src="img/projet/e-commerce.jpg" class="img-responsive img-portfolio" alt="...">
                 <div class="description">
-                  <h4>Description du projet</h4>
                   <p>Deuxième projet qui consister à la conception d'une page d'accueil d'un site de e-commerce.</p>
-                  <a href="#" class="modal-trigger" data-modal="modal-name2">Plus d'information</a>
+                </div>
+                <div class="btn-modal">
+                  <button class="modal-trigger" data-modal="modal-name2">Plus d'information</button>
                 </div>
               </div>
             </div>
           </div>
-          <hr>
+          <hr class="hidden">
         </div>
       </div>
-      <div class="row">
-
-        <div class="col-md-6 col-sm-12">
+    
+      <div class="row line2">
+        <div class="col-md-6 col-sm-12 shadow">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text dispo-portfolio">
@@ -320,16 +326,18 @@
               <div class="portfolio-disp">
                 <img src="img/projet/biennale.jpg" class="img-responsive img-portfolio" alt="...">
                 <div class="description">
-                  <h4>Description du projet</h4>
                   <p>Troisème projet sur le style brutaliste consistant à concevoir un évènement sur les arts numériques.</p>
-                  <a href="#" class="modal-trigger" data-modal="modal-name8">Plus d'information</a>
+                </div>
+                <div class="btn-modal">
+                  <button class="modal-trigger" data-modal="modal-name8">Plus d'information</button>
                 </div>
               </div>
             </div>
           </div>
-          <hr>
+          <hr class="hidden">
         </div>
-        <div class="col-md-6 col-sm-12">
+
+        <div class="col-md-6 col-sm-12 shadow">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text dispo-portfolio">
@@ -340,138 +348,19 @@
               <div class="portfolio-disp">
                 <img src="img/projet/wp.png" class="img-responsive img-portfolio" alt="...">
                 <div class="description">
-                  <h4>Description du projet</h4>
                   <p>Quatrième projet consistant à créer un site e-commerce en utilisant WordPress.</p>
-                  <a href="#" class="modal-trigger" data-modal="modal-name9">Plus d'information</a>
+                </div>
+                <div class="btn-modal">
+                  <button class="modal-trigger" data-modal="modal-name9">Plus d'information</button>
                 </div>
               </div>
             </div>
           </div>
+          <hr class="hidden">
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="section-title">
-            <h3>Mes exercices</h3>
-            <hr>
-          </div>
-        </div>
-      </div>
-      <div class="space"></div>
-    </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="portfolio-item">
-              <div class="hover-bg">
-                <div class="hover-text dispo-portfolio">
-                  <h5>Front-end</h5>
-                  <p class="lead">Mondrian</p>
-                  <div class="hline"></div>
-                </div>
-                <div class="portfolio-disp">
-                  <img src="img/projet/mondrian.jpg" class="img-responsive img-portfolio" alt="...">
-                  <div class="description">
-                    <h4>Description du projet</h4>
-                    <p>Exercice de style sur la technologie de flexbox en reproduisant une partie du célèbre tableau de Mondrian.</p>
-                    <a href="#" class="modal-trigger" data-modal="modal-name3">Plus d'information</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="portfolio-item">
-              <div class="hover-bg">
-                <div class="hover-text dispo-portfolio">
-                  <h5>Front-end</h5>
-                  <p class="lead">Dactylographie</p>
-                  <div class="hline"></div>
-                </div>
-                <div class="portfolio-disp">
-                  <img src="img/projet/jeux.jpg" class="img-responsive img-portfolio" alt="...">
-                  <div class="description">
-                    <h4>Description du projet</h4>
-                    <p>Exercice permettant de créer un jeux de dactylograpie en JavaScript.</p>
-                    <a href="#" class="modal-trigger" data-modal="modal-name4">Plus d'information</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="portfolio-item">
-              <div class="hover-bg">
-                <div class="hover-text dispo-portfolio">
-                  <h5>Design</h5>
-                  <p class="lead">Brutaliste</p>
-                  <div class="hline"></div>
-                </div>
-                <div class="portfolio-disp">
-                  <img src="img/projet/maquette.jpg" class="img-responsive img-portfolio" alt="...">
-                  <div class="description">
-                    <h4>Description du projet</h4>
-                    <p>Exercice sur le brutalisme desgin.</p>
-                    <a href="#" class="modal-trigger" data-modal="modal-name5">Plus d'information</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="portfolio-item">
-              <div class="hover-bg">
-                <div class="hover-text dispo-portfolio">
-                  <h5>Front-end</h5>
-                  <p class="lead">Formulaire</p>
-                  <div class="hline"></div>
-                </div>
-                <div class="portfolio-disp">
-                  <img src="img/projet/formulaire.jpg" class="img-responsive img-portfolio" alt="...">
-                  <div class="description">
-                    <h4>Description du projet</h4>
-                    <p>Exercice de style sur la création d'un formulaire.</p>
-                    <a href="#" class="modal-trigger" data-modal="modal-name6">Plus d'information</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="portfolio-item">
-              <div class="hover-bg">
-                <div class="hover-text dispo-portfolio">
-                  <h5>Front-end</h5>
-                  <p class="lead">Page panier site Sport for All</p>
-                  <div class="hline"></div>
-                </div>
-                <div class="portfolio-disp">
-                  <img src="img/projet/panier.jpg" class="img-responsive img-portfolio" alt="...">
-                  <div class="description">
-                    <h4>Description du projet</h4>
-                    <p>Exercice sur le language JavaScript consistant à rajouter des fonctions au site de e-commerce créer lors du premier projet.</p>
-                    <a href="#" class="modal-trigger" data-modal="modal-name7">Plus d'information</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr>
-          </div>
-        </div>
-      </div>
-
+    
     <div class="space"></div>
     <div class="text-center">
       <!--<a href="#" class="btn read-more-btn">Check on Dribbble</a>
@@ -490,12 +379,12 @@
         </div>
         <div class="row">
           <ul class="clients">
-            <li class="col-sm-12 col-md-6">Février 2019 à Mars 2019<img src="img/icone/sokeo.png" class="img-responsive img-exp-pro" alt="...">Développeuse web Full-Stack Stagiaire</li>
-            <li class="col-sm-12 col-md-6">2015 à Aujourd'hui<img src="img/icone/ffsg.png" class="img-responsive img-exp-pro" alt="...">Bénévole en tant que chargé de projet handisport</li>
-            <li class="col-sm-12 col-md-4">2016 à 2018<img src="img/icone/siel-bleu.png" class="img-responsive img-exp-pro" alt="...">Professeur en activité physique adaptée</li>
+            <li class="col-sm-12 col-md-2 col-md-offset-1">Février 2019 à Mars 2019<img src="img/icone/sokeo.png" class="img-responsive img-exp-pro" alt="...">Développeuse web Full-Stack Stagiaire</li>
+            <li class="col-sm-12 col-md-2">2015 à Aujourd'hui<img src="img/icone/ffsg.png" class="img-responsive img-exp-pro" alt="...">Bénévole en tant que chargé de projet handisport</li>
+            <li class="col-sm-12 col-md-2">2016 à 2018<img src="img/icone/siel-bleu.png" class="img-responsive img-exp-pro" alt="...">Professeur en activité physique adaptée et santé</li>
 
-            <li class="col-sm-12 col-md-4">2014 à 2016<img src="img/icone/louispion.png" class="img-responsive img-exp-pro" alt="...">Vendeuse dans différentes entreprise</li>
-            <li class="col-sm-12 col-md-4">2010 à 2014<img src="img/icone/cgd13.png" class="img-responsive img-exp-pro" alt="...">Stage en activité physique adaptée et santé dans différents établissements</li>
+            <li class="col-sm-12 col-md-2">2014 à 2016<img src="img/icone/louispion.png" class="img-responsive img-exp-pro" alt="...">Vendeuse dans différentes entreprise</li>
+            <li class="col-sm-12 col-md-2">2010 à 2014<img src="img/icone/cgd13.png" class="img-responsive img-exp-pro" alt="...">Professeur en activité physique adaptée et santé</li>
           </ul>
         </div>
       </div>
