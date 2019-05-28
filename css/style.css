@@ -490,6 +490,9 @@ a.btn.send-btn:hover{
 	border: 1px solid #c59a6d;
 	color: #ffffff;
 }*/
+.portfolio-item .description p{
+  height: 70px;
+}
 .line2, .line{
   display: flex;
 }
@@ -556,6 +559,22 @@ a.btn.send-btn:hover{
   color: #ffffff;
 }
 
+.line1Exp{
+  height: 40px;
+}
+
+.line2Exp{
+  height: 90px;
+}
+
+.line3Exp{
+  height: 90px;
+}
+
+.imgCGD{
+  height: 90%;
+}
+
 ul, ol {
   padding: 0;
   moz-padding: 0;
@@ -590,7 +609,8 @@ ul.clients li {
 }
 
 .team h4 {
-  color: #333
+  color: #333;
+  height: 100px;
 }
 
 .team hr {
@@ -858,15 +878,25 @@ button {
 
 .img-modal {
   text-align: center;
+  margin-top: 25px;
   margin-bottom: 40px;
 }
 
 .img-box {
   border: 1px #c59a6d solid;
+  width: 100%;
+}
+.img-maquette{
+  margin: 10px 15px 20px 10px;
 }
 
 .description-modal h4 {
   padding: 15px 0;
+  font-weight: bold;
+}
+
+.description-modal h5{
+  font-size: 16px;
 }
 
 .description-modal ul {
