@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4128065b-03dc-422e-bbd6-f04b94125785" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/biennale.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/e-commerce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/formulaire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/jeux.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/landing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/maquette.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/mondrian.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/panier.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/modal/wp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/biennale.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/e-commerce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/formulaire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/jeux.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/landing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/maquette.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/mondrian.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/panier.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/wp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projet/wp.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="313" column="132" lean-forward="true" selection-start-line="313" selection-start-column="132" selection-end-line="313" selection-end-column="132" />
+            <state relative-caret-position="333">
+              <caret line="353" column="47" selection-start-line="353" selection-start-column="47" selection-end-line="353" selection-end-column="47" />
               <folding>
                 <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
@@ -48,12 +28,15 @@
                 <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -72,6 +55,7 @@
       <find>hline</find>
       <find>client</find>
       <find>after</find>
+      <find>portfolio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,8 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,6 +103,25 @@
               <item name="Portfolio git pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio git pages" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio git pages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio git pages" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio git pages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio git pages" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio git pages" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio git pages" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+              <item name="projet-6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Portfolio git pages" type="b2602c69:ProjectViewProjectNode" />
@@ -169,12 +172,12 @@
       <updated>1557820983121</updated>
       <workItem from="1557820987358" duration="2914000" />
       <workItem from="1558940886922" duration="5880000" />
-      <workItem from="1559026314835" duration="8042000" />
+      <workItem from="1559026314835" duration="9552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16836000" />
+    <option name="totallyTimeSpent" value="18346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -210,10 +213,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="493" column="14" selection-start-line="493" selection-start-column="14" selection-end-line="493" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="313" column="132" lean-forward="true" selection-start-line="313" selection-start-column="132" selection-end-line="313" selection-end-column="132" />
+        <state relative-caret-position="333">
+          <caret line="353" column="47" selection-start-line="353" selection-start-column="47" selection-end-line="353" selection-end-column="47" />
           <folding>
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
@@ -221,14 +231,10 @@
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#div#15;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="493" column="14" selection-start-line="493" selection-start-column="14" selection-end-line="493" selection-end-column="14" />
         </state>
       </provider>
     </entry>
